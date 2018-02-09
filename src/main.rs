@@ -197,17 +197,6 @@ fn get_points(region: &str, name: &str, retry: bool) -> usize {
 }
 
 fn main() {	
-	//let decoded: Value = make_api_request("/api/YzZuykbk/discussions/G7v9hVxQ");
-	//let decoded2: Value = make_api_request("/api/YzZuykbk/discussions/kfyaQhN4");
-	
-	//find_names(&decoded["discussion"]["comments"], 0);
-	
-	//println!("\n\n");
-	
-	//find_names(&decoded2["discussion"]["comments"], 0);
-	
-	//println!("{}", get_points("eune", "Gamma Ray"));
-
 	//EUW/EUNE - en: "/api/0oazE84H/discussions"
 	//EUNE - hu: "/api/q98U6Ykw/discussions"
 	let arg: Vec<_> = env::args().collect();
@@ -242,5 +231,4 @@ fn main() {
 
 		outp.flush().unwrap();
 	}
-	//println!("{}", get_points("Nemin"));
 }
